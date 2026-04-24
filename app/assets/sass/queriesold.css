@@ -1,0 +1,62 @@
+/* For screens larger than or equal to 'xl' breakpoint */
+@media (min-width: 1280px) {
+    .container {
+        max-width: 864px !important; /* Adjusted proportionally */
+    }
+}
+
+/* For screens larger than or equal to '2xl' breakpoint */
+@media (min-width: 1536px) {
+    .container {
+        max-width: 962px !important; /* Adjusted proportionally */
+    }
+}
+
+/* For screens larger than or equal to '3xl' breakpoint */
+@media (min-width: 1792px) {
+    .container {
+        max-width: 1054px !important; /* As specified */
+    }
+}
+
+/* For screens larger than or equal to '4xl' breakpoint */
+@media (min-width: 2048px) {
+    .container {
+        max-width: 1166px !important; /* Adjusted proportionally */
+    }
+}
+
+/* For screens larger than or equal to '5xl' breakpoint */
+@media (min-width: 2304px) {
+    .container {
+        max-width: 1277px !important; /* Adjusted proportionally */
+    }
+}
+
+/* For screens larger than or equal to '6xl' breakpoint */
+@media (min-width: 2688px) {
+    .container {
+        max-width: 1421px !important; /* Adjusted proportionally */
+    }
+}
+
+/* For screens larger than or equal to '7xl' breakpoint */
+@media (min-width: 3072px) {
+    .container {
+        max-width: 1622px !important; /* Adjusted proportionally */
+    }
+}
+
+/* For screens larger than or equal to '8xl' breakpoint */
+@media (min-width: 3584px) {
+    .container {
+        max-width: 1810px !important; /* Adjusted proportionally */
+    }
+}
+
+/* For screens larger than or equal to '9xl' breakpoint */
+@media (min-width: 4096px) {
+    .container {
+        max-width: 1920px !important; /* Adjusted proportionally */
+    }
+}

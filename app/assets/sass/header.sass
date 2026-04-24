@@ -1,0 +1,15 @@
+header 
+  .pointer:before
+    clip-path: polygon(48% 55%, 0 100%, 100% 100%)
+    -webkit-clip-path: polygon(48% 55%, 0 100%, 100% 100%)
+    
+  #nav-toggle.toggled 
+    .line1
+      @apply -rotate-45 translate-y-[6px]
+
+    .line2
+      @apply w-0 
+      // 1
+
+    .line3
+      @apply rotate-45 translate-y-[-8px]
