@@ -34,16 +34,8 @@
 
                 <div class="flex max-lg:flex-col gap-4 justify-between items-start">
                     <div class="flex flex-col gap-1 w-full">
-                        <label for="gender" class="text-base">Industry</label>
-                        <Dropdown v-model="form.company_information_industry" :items="[
-                            { label: 'Single', value: 'Single' },
-                            { label: 'Married', value: 'Married' },
-                            { label: 'Divorced', value: 'Divorced' },
-                            { label: 'Widowed', value: 'Widowed' }
-                        ]" label-key="label" value-key="value" :label-resolver="c => `${c.label}`"
-                            :selected-label-resolver="c => `${c.label}`" :searchable="false"
-                            trigger-class="min-h-14 px-3 flex justify-between items-center gap-2 border border-[#2C2D30] rounded-lg cursor-pointer bg-[#232427]" />
-
+                        <label for="industry" class="text-base">Industry</label>
+                        <input v-model="form.company_information_industry" type="text" placeholder="Company Name" id="company_name" class="w-full h-full min-h-14 py-3 px-3 bg-[#232427] border border-[#2C2D30] rounded-lg outline-none">
                         <div v-if="touched.company_information_industry && errors.company_information_industry"
                             class="text-xs text-red-500">{{ errors.company_information_industry }}</div>
                     </div>
