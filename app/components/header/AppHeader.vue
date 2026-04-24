@@ -1,6 +1,6 @@
 <template>
     <header class="container flex items-center gap-4 py-6">
-        <AppLogo />
+        <AppLogo  class="mt-1"/>
         <span class="w-[1px] h-[38px] bg-[#848585]"></span>
         <h1 class="font-AeonikMedium">Business Credit Card Application Form</h1>
     </header>
