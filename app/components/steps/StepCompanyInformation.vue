@@ -35,7 +35,7 @@
                 <div class="flex max-lg:flex-col gap-4 justify-between items-start">
                     <div class="flex flex-col gap-1 w-full">
                         <label for="industry" class="text-base">Industry</label>
-                        <input v-model="form.company_information_industry" type="text" placeholder="Company Name" id="company_name" class="w-full h-full min-h-14 py-3 px-3 bg-[#232427] border border-[#2C2D30] rounded-lg outline-none">
+                        <input v-model="form.company_information_industry" type="text" placeholder="Industry" id="industry" class="w-full h-full min-h-14 py-3 px-3 bg-[#232427] border border-[#2C2D30] rounded-lg outline-none">
                         <div v-if="touched.company_information_industry && errors.company_information_industry"
                             class="text-xs text-red-500">{{ errors.company_information_industry }}</div>
                     </div>
